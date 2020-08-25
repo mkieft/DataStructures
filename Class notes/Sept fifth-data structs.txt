@@ -1,0 +1,25 @@
+class Student
+{
+	private:
+		string firstName;
+		string lastName;
+		int age;
+
+	public: 						//getter method("accessor")
+		int getAge();
+		void setAge(int _age);				//setter method		
+}; 		
+
+
+how do you compile for multiple files?
+
+g++ -std = c++11
+driver.cpp 
+*.cpp
+
+scope operator-- ::
+
+create classes-- 
+
+destructor --  cleaning up objects that no longer exist (for pointers) 
+	write one: ~Student() 

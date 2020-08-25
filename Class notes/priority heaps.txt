@@ -1,0 +1,69 @@
+priority queue:
+
+what makes it different than a queue?
+-theres a priority (VIP) 
+-request inserted in order of arrival but the request with the highest priority goes first
+-priority = # (tied severity - pick based on how long to treat them) 
+
+what is the order of data being added and removed...
+-a stack is ... FILO
+-a queue is...	FIFO
+-a priority queue is... least (or max) priority out first
+
+what is the definition of "smallest" in priority queue? How is it defined?
+-up to the programmer (or client) 
+
+what do you do if there are multiple with the same "smallest" value? 
+-programmer/client decide (any, first one in, another field value) 
+
+what are some examples of uses for priority queues? 
+event/job management
+-operating systems (O/s) scheduling jobs
+-simulators
+-ER 
+
+what is important to look at when picking a data structure for these ...
+-load data & thoasands of searches -> make search fastc(sorted array, binary search) 
+
+-for queue -> eventually everything is added then removed (add+remove) 
+
+how good are the following data strcts for implementing a priority queue?
+-unsorted array	
+	Add O (1) -- add to end
+	Removed O (1) --take one from end and add to empty space (swap last element into hole)  O(n) ->dont know location
+
+	-wont work need "sort" for priority queue
+
+-sorted array
+	Add O (n) --shift
+	Removed O (n) -- shift
+
+	--add + remove O(2n)->O(n)	
+
+-unsorted linked-list
+	Add O (1)
+	Removed O (1) --unless need to find it -> O(n) 
+
+	-need it sorted 
+
+-sorted linked-lsit
+	Add O (n)
+	Removed O (n)
+
+	--add + remove O(n)
+-BST
+	Add O (n)
+	Removed O (n)
+-Balanced BST
+	Add O (log n)
+	Removed O (log n)
+-Heap
+	Add O (log n)
+	Removed O (log n)
+
+does a priority queue need the tree to be a BST?
+- "partially sorted" -> heap property (max-> children less than you, min->children bigger/equal to
+
+
+
+homework: 

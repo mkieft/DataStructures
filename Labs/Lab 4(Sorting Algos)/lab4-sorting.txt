@@ -1,0 +1,18 @@
+Lab 4: Sorting Functions
+
+Selection:
+	find smallest element in unsorted portion of array; 
+	swap it into its final position; 
+	continue until all elements sorted;
+
+	9, 4, 7, 2, 8, 3, 5
+	2, 4, 7, 9, 8, 3, 5
+	2, 3, 7, 9, 8, 4, 5
+	2, 3, 4, 9, 8, 7, 5
+	2, 3, 4, 5, 8, 7, 9
+	2, 3, 4, 5, 7, 8, 9
+
+	after each run of the outer loop have partially sorted array after each run of sorting algorithm
+	unsorted part will shrink by 1 
+	by the end, the entire algorithm will be sorted
+

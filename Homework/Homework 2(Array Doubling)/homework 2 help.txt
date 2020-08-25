@@ -1,0 +1,26 @@
+homework 2: 
+
+dynamically allocate memory - pointers
+**make sure free memory to allocate doubling *****
+test with smaller set to verify 
+
+using array for other parts of the code -- reading words from hunger games and keeping track of them
+
+array doubling: 
+
+write vector class to implement (dynamically allocated array) (not actually a class called vector) 
+
+copy values over into new array just created (which is double in size, found in memory, need to free up old memory) 
+keep doubling, (use loop to do work of copying) 
+
+
+passing vector by reference - (&) 
+
+freeing up space- delete[]mylist; (mylist = array name)
+
+stop words-vector (throw it out if stop word, not stop word-go through list of words if seen before add to count, havent seen before, add to end of array)
+word count-array
+
+
+muliple command line - ./a.out 
+(make sure order is correct-- make sure arg[v] for number is converted: atoi(cstring, stoi(string
